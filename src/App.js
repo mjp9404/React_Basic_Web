@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import StudnetForm from './components/StudentForm';
+import CreateStudent from './components/create-student.component';
 function App() {
   return (
     <div className="App">
-      <StudnetForm/>
-
+      {/* <StudnetForm/> */}
+    <CreateStudent/>
       
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
