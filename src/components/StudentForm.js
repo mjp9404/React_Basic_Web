@@ -15,7 +15,7 @@ const StudnetForm = (props) => {
     });
     console.log(props);
     return (
-        <div>
+        <div className="form-wrapper">
             <Formik {...props} validationSchema={validationSchema}>
                 <Form>
                     {/* Display Student Name */}
